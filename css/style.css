@@ -118,6 +118,12 @@ abbr {
 .down {
   transform: rotate(90deg);
 }
+.desktop {
+    display: block;
+}
+.mobile {
+    display: none;
+}
 @media only screen and (max-width: 770px) {
     body {
       margin: 2vw;
@@ -131,4 +137,11 @@ abbr {
   h1 {
     font-size: 45px;
   }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        border: none;
+    }
 }
