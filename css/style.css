@@ -114,9 +114,11 @@ abbr {
 }
 .right{
   transform: rotate(0deg);
+  transition: transform 0.4s;
 }
 .down {
   transform: rotate(90deg);
+  transition: transform 0.4s;
 }
 .desktop {
     display: block;
