@@ -48,6 +48,12 @@ body {
   padding: 10px;
   grid-area: skills;
 }
+a {
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  font-size: 13px;
+  color: #666666;
+}
 h1 {
   font-family: 'Merriweather', serif;
   font-size: 55px;
@@ -68,6 +74,7 @@ h3 {
   font-size: 14px;
   font-weight: bold;
   margin: 20px 0 10px 0;
+    color: black;
 }
 h4 {
   font-family: 'Open Sans', sans-serif;
@@ -89,12 +96,6 @@ p {
 }
 .headline {
   font-family: 'Open Sans', sans-serif;
-}
-a {
-  font-family: 'Merriweather', serif;
-  text-decoration: none;
-  font-size: 12px;
-  color: #666666;
 }
 aside > ul {
   margin: 0;
@@ -133,6 +134,9 @@ abbr {
 }
 .mobile {
     display: none;
+}
+.fa-xs {
+    color: #2079c7;
 }
 @media only screen and (max-width: 770px) {
     body {
