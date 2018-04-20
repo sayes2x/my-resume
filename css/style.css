@@ -141,7 +141,7 @@ abbr {
 @media only screen and (max-width: 770px) {
     body {
       margin: 2vw;
-      grid-template-columns: 1fr;
+      grid-template-columns: 98vw;
       grid-template-rows: auto auto auto auto;
       grid-template-areas: "header"
                            "contactInformation"
