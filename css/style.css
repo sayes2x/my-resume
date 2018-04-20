@@ -3,20 +3,21 @@ body {
   display: grid;
   grid-template-columns: 1fr 52vw 280px 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: ". header contactInformation ."
-                       ". main skills .";
+  grid-template-areas:
+    '. header contactInformation .'
+    '. main skills .';
 }
 .name {
-  border-top:  2px solid #2079c7;
-  border-right:  .5px solid #2079c7;
-  border-bottom:  .5px solid #2079c7;
-  border-left:  2px solid #2079c7;
+  border-top: 2px solid #2079c7;
+  border-right: 0.5px solid #2079c7;
+  border-bottom: 0.5px solid #2079c7;
+  border-left: 2px solid #2079c7;
   padding: 20px;
   align-self: center;
   grid-area: header;
 }
 .contactInformation {
-  border: .5px solid #2079c7;
+  border: 0.5px solid #2079c7;
   padding: 10px;
   color: white;
   background-color: #2079c7;
@@ -33,18 +34,18 @@ body {
   justify-content: space-around;
 }
 .resume {
-  border-top:  .5px solid #2079c7;
-  border-right:  .5px solid #2079c7;
-  border-bottom:  2px solid #2079c7;
-  border-left:  2px solid #2079c7;
+  border-top: 0.5px solid #2079c7;
+  border-right: 0.5px solid #2079c7;
+  border-bottom: 2px solid #2079c7;
+  border-left: 2px solid #2079c7;
   padding: 10px;
   grid-area: main;
 }
 .skills {
-  border-top:  .5px solid #2079c7;
-  border-right:  2px solid #2079c7;
-  border-bottom:  2px solid #2079c7;
-  border-left:  .5px solid #2079c7;
+  border-top: 0.5px solid #2079c7;
+  border-right: 2px solid #2079c7;
+  border-bottom: 2px solid #2079c7;
+  border-left: 0.5px solid #2079c7;
   padding: 10px;
   grid-area: skills;
 }
@@ -74,7 +75,7 @@ h3 {
   font-size: 14px;
   font-weight: bold;
   margin: 20px 0 10px 0;
-    color: black;
+  color: black;
 }
 h4 {
   font-family: 'Open Sans', sans-serif;
@@ -121,7 +122,7 @@ a:hover {
 abbr {
   text-decoration: none;
 }
-.right{
+.right {
   transform: rotate(0deg);
   transition: transform 0.4s;
 }
@@ -130,50 +131,52 @@ abbr {
   transition: transform 0.4s;
 }
 .desktop {
-    display: block;
+  display: block;
 }
 .mobile {
-    display: none;
+  display: none;
 }
 .fa-xs {
-    color: #2079c7;
+  color: #2079c7;
 }
 @media only screen and (max-width: 770px) {
-    body {
-      margin: 2vw;
-      grid-template-columns: 98vw;
-      grid-template-rows: auto auto auto auto;
-      grid-template-areas: "header"
-                           "contactInformation"
-                           "main"
-                           "skills";
-    }
+  body {
+    margin-left: 2vw;
+    margin-right: 1vw;
+    grid-template-columns: 97vw;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      'header'
+      'contactInformation'
+      'main'
+      'skills';
+  }
   h1 {
     font-size: 45px;
   }
-    .desktop {
-        display: none;
-    }
-    .mobile {
-        display: block;
-        border: none;
-    }
-    .name {
-    border-top:  2px solid #2079c7;
-    border-right:  2px solid #2079c7;
-    border-bottom:  .5px solid #2079c7;
-    border-left:  2px solid #2079c7;
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    border: none;
+  }
+  .name {
+    border-top: 2px solid #2079c7;
+    border-right: 2px solid #2079c7;
+    border-bottom: 0.5px solid #2079c7;
+    border-left: 2px solid #2079c7;
   }
   .resume {
-    border-top:  .5px solid #2079c7;
-    border-right:  2px solid #2079c7;
-    border-bottom:  .5px solid #2079c7;
-    border-left:  2px solid #2079c7;
+    border-top: 0.5px solid #2079c7;
+    border-right: 2px solid #2079c7;
+    border-bottom: 0.5px solid #2079c7;
+    border-left: 2px solid #2079c7;
   }
   .skills {
-    border-top:  .5px solid #2079c7;
-    border-right:  2px solid #2079c7;
-    border-bottom:  2px solid #2079c7;
-    border-left:  2px solid #2079c7;
+    border-top: 0.5px solid #2079c7;
+    border-right: 2px solid #2079c7;
+    border-bottom: 2px solid #2079c7;
+    border-left: 2px solid #2079c7;
   }
 }
