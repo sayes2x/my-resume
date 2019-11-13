@@ -6,6 +6,7 @@ body {
   grid-template-areas:
     '. header contactInformation .'
     '. main skills .';
+  overflow-X: hidden;
 }
 .name {
   border-top: 2px solid #2079c7;
